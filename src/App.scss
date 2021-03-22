@@ -1,0 +1,27 @@
+.App {
+  background-color: var(--background);
+  height: 100vh;
+  overflow-y: scroll;
+  position: relative;
+  p,
+  span {
+    font-family: Commissioner;
+    color: white;
+  }
+  .row {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1440px !important;
+  }
+}
+
+
+.theme-default {
+  --max-content-width: 1440px;
+  --content-padding: 100px;
+  --background: rgba(16, 15, 21);
+}

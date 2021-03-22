@@ -1,0 +1,57 @@
+.sg-gradient-button-container {
+  .sg-gradient-button {
+    background: conic-gradient(from 151.11deg at 50% 50%, #CC9AC7 0deg, #A082F4 13.37deg, #A6E8F7 106.88deg, #FFF5DD 204.37deg, #FFF4D9 305.62deg, #CC9AC7 360deg);
+    padding: 6px;
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #100F15;
+      box-sizing: border-box;
+      border-radius: 18px;
+      height: 100%;
+      p {
+        margin: 0;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: black;
+      }
+    }
+  }
+  
+  .sg-gradient-button-bg {
+    height: 60px;
+    filter: blur(54px);
+    border-radius: 40px;
+    opacity: 0.4;
+    background: conic-gradient(from 151.11deg at 50% 50%, #CC9AC7 0deg, #A082F4 13.37deg, #A6E8F7 106.88deg, #FFF5DD 204.37deg, #FFF4D9 305.62deg, #CC9AC7 360deg);
+  }
+}
+
+.sg-icon-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  span {
+    margin-left: 10px;
+  }
+}
+
+
+.sg-button {
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  span {
+    text-align: center;
+    font-family: Commissioner;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    margin: auto;
+  }
+}

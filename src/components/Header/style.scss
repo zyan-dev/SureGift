@@ -1,0 +1,77 @@
+.sg-header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo-menu {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    .logo {
+      width: 196px;
+      height: 40px;
+      margin-right: 30px;
+    }
+    .nav-btn {
+      margin: 10px;
+      padding: 16px 16.5px;
+      border-radius: 18px;
+      color: white;
+      font-size: 14px;
+      line-height: 17px;
+      text-decoration: unset;
+    }
+    .nav-btn.focused {
+      background: #FFFFFF1A;
+    }
+  }
+  .language-auth {
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    .language-picker {
+      margin-right: 10px;
+    }
+    .flag {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+    .sign-in-button {
+      border: 1px solid transparent;
+      background: conic-gradient(from 151.11deg at 50% 50%, #CC9AC7 0deg, #A082F4 13.37deg, #A6E8F7 106.88deg, #FFF5DD 204.37deg, #FFF4D9 305.62deg, #CC9AC7 360deg);
+      padding: 1px;
+      margin-left: 10px;
+      height: 50px;
+      .content {
+        background: var(--background);
+        p {
+          color: white;
+          padding: 0 40px;
+        }
+      }
+    }
+    .welcome-back {
+      margin-right: 17px;
+      .welcome-title {
+        font-size: 12px;
+        line-height: 15px;
+        color: #AAAABE;
+        text-align: center;
+        margin: 0;
+      }
+      .welcome-name {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0;
+      }
+    }
+    .shop-bag {
+      margin-left: 20px;
+    }
+  }
+}

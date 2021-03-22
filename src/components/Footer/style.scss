@@ -1,0 +1,96 @@
+.sg-footer {
+  .footer-title {
+    font-family: Commissioner;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  a {
+    font-family: Commissioner;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .subscribe-title {
+    font-family: Commissioner-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .subscribe-description {
+    font-family: Commissioner;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.7;
+  }
+  .send-email {
+    display: flex;
+    align-items: center;
+    position: relative;
+    .email-input {
+      background: #17171C;
+      border-radius: 18px;
+      height: 70px;
+      width: 100%;
+      border-width: 0px;
+      padding-right: 90px;
+      padding-left: 25px;
+      color: white;
+      outline: none;
+    }
+    .sg-gradient-button {
+      position: absolute;
+      right: 0;
+      top: -5px;
+      bottom: -5px;
+    }
+  }
+  .languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+    margin-top: 30px;
+    .picker {
+      flex: 1;
+      .dropdown-picker {
+        width: 100%;
+        border-radius: 15px;
+        .sg-dropdown-header {
+          background: #17171C;
+        }
+      }
+      a {
+        color: black;
+        margin-bottom: 0;
+        padding: .25rem 1.5rem;
+      }
+    }
+    .flag {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+  }
+  .terms-privacy {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    align-items: center;
+    .reversed {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    .buttons {
+      align-items: center;
+      color: rgba(255, 255, 255, 0.7);
+      span {
+        color: rgba(255, 255, 255, 0.7);
+      }
+      .reversed {
+        margin: 0;
+      }
+    }
+  }
+}

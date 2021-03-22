@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Commissioner';
+  src: local('Commissioner'), url(./assets/fonts/Commissioner-Regular.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'Commissioner-Bold';
+  src: local('Commissioner'), url(./assets/fonts/Commissioner-Bold.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'Cookie';
+  src: local('Cookie'), url(./assets/fonts/Cookie-Regular.ttf) format('woff');
+}
